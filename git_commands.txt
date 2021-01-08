@@ -3,10 +3,10 @@ General commands:
 open git bash
 cd to project files location
 git init
+git remote add origin <github remote repo url>
 git branch -M "<branch name>"
 git add <files>
 git commit -m "commit message"
-git remote add origin <github remote repo url>
 git push -u origin <branch>
 raise Pull request to merge with master
 ----------------------
