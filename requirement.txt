@@ -1,0 +1,18 @@
+Context
+This is an event log of an incident management process extracted from data gathered from the audit system of an instance of the ServiceNowTM platform used by an IT company.
+
+Content
+The event log is enriched with data loaded from a relational database underlying a corresponding process-aware information system. Information was anonymized for privacy.
+
+Number of instances: 141,712 events (24,918 incidents)
+Number of attributes: 36 attributes (1 case identifier, 1 state identifier, 32 descriptive attributes, 2 dependent variables)
+
+The attributed closedat is used to determine the dependent variable for the time completion prediction task. The attribute resolvedat is highly correlated with closed_a. In this event log, some rows may have the same values (they are equal) since not all attributes involved in the real-world process are present in the log.
+
+Attributes used to record textual information are not placed in this log. The missing values should be considered unknown information.
+
+Acknowledgements
+Thanks to University of SÃ£o Paulo, Brazil for this amazing dataset.
+
+Inspiration
+Create a Machine learning application which predicts the estimated time and date for the final closure of a opened ticket based on the given attributes.
