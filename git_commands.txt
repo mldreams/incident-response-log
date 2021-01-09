@@ -1,0 +1,22 @@
+General commands:
+
+open git bash
+cd to project files location
+git init
+git remote add origin <github remote repo url>
+git branch -M "<branch name>"
+git add <files>
+git commit -m "commit message"
+git push -u origin <branch>
+raise Pull request to merge with master
+----------------------
+
+Troubleshoot commands:
+
+git config credential.username "mldreams"
+git config --global credential.username  "mldreams"
+git config --global user.name "mldreams"
+git config --global user.email "gvssganesh2@gmail.com"
+git remote set-url origin https://github.com/mldreams/incident-response-log.git
+git pull origin dev2 --allow-unrelated-histories
+
